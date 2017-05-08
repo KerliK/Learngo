@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	b := greatest([]int{-1, -2, -3, 4})
-	fmt.Println(b)
+	b2 := greatest([]int{-1, -2, -3, 4})
+	fmt.Println(b2)
 }
 
 func greatest(a []int) int {
