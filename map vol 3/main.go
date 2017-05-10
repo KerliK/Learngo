@@ -22,6 +22,9 @@ func main() {
 		fmt.Println(k, v)
 
 	}
+	suvi(10, vihm)
+	suvi(7, vihm)
+	suvi(13, nil)
 }
 
 func udu(k int, y map[int]string) {
@@ -34,4 +37,13 @@ func pilv(g int, p map[int]string) string {
 }
 func leht(f int, w map[int]string) (int, string) {
 	return f, w[f]
+}
+
+func suvi(b int, r map[int]string) {
+
+	if taina, pea := r[b]; pea {
+		fmt.Println("olemas - ", taina)
+	} else {
+		fmt.Println("ei ole olemas - ", b)
+	}
 }
